@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+#hero-section{
+    background-image: url("https://images.unsplash.com/photo-1631477076110-2b8c1fe0f3cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-section h1{
+    font-family: helvetica;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+#text{
+    font-family: helvetica;
+    margin: 50px 5%;
+}
+
+#logo{
+    height: 30px;
+}
+
+#navbar{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.4s;
+}
+
+#navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family: helvetica;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+#navbar ul li a:hover{
+    color: rgb(173, 173, 173);
+    transition: color 0.4s;
+}
+
+#navbar.active{
+    background-color: black;
+}
+
+#navbar ul li a.active {
+    color: white;
+}

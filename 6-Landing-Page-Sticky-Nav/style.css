@@ -65,7 +65,7 @@ body{
 }
 
 #navbar.active{
-    background-color: white;
+    background-color: rgb(0, 0, 0);
 }
 
 #navbar.active ul li a{
